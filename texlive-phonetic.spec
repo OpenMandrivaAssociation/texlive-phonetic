@@ -1,3 +1,9 @@
+# revision 21871
+# category Package
+# catalog-ctan /fonts/phonetic
+# catalog-date 2011-03-28 22:21:58 +0200
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-phonetic
 Version:	20110328
 Release:	1
@@ -73,6 +79,7 @@ LaTeX 2.09 and for current LaTeX.
 %doc %{_texmfdistdir}/doc/fonts/phonetic/makefile
 %doc %{_texmfdistdir}/doc/fonts/phonetic/phonetic-table.pdf
 %doc %{_texmfdistdir}/doc/fonts/phonetic/phonetic-table.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -83,3 +90,5 @@ LaTeX 2.09 and for current LaTeX.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
