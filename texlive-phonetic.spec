@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-phonetic
-Version:	20110328
-Release:	10
+Version:	20170414
+Release:	1
 Summary:	MetaFont Phonetic fonts, based on Computer Modern
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/phonetic
