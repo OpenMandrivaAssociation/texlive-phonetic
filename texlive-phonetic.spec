@@ -1,6 +1,6 @@
 Name:		texlive-phonetic
 Version:	56468
-Release:	1
+Release:	2
 Summary:	MetaFont Phonetic fonts, based on Computer Modern
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/phonetic
